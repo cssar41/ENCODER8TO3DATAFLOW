@@ -56,8 +56,6 @@ assign a1=d2|d3|d6|d7;
 assign a2=d4|d5|d6|d7;
 endmodule
 ```
-![image](https://github.com/23008859/ENCODER8TO3DATAFLOW/assets/139117979/9fb09b65-401d-4af2-8e42-3094b2c9ffc9)
-
 **RTL Schematic:
 ![image](https://github.com/23008859/ENCODER8TO3DATAFLOW/assets/139117979/ec8739ba-f94f-47cf-b553-c784271fe9f3)
 
