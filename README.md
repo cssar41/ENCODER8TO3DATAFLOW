@@ -41,15 +41,34 @@ Figure 02  Encoder 8 * 3
 **PROGRAM**
 
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:
+```
+Developed by: Saravanan C
+RegisterNumber: 212222110041
+```
 */
+```
+module Encoder(a0,a1,a2,d0,d1,d2,d3,d4,d5,d6,d7);
+input d0,d1,d2,d3,d4,d5,d6,d7;
+output a0,a1,a2;
+//add logic here using dataflow modelling
+assign a0=d1|d3|d5|d7;
+assign a1=d2|d3|d6|d7;
+assign a2=d4|d5|d6|d7;
+endmodule
+```
+![image](https://github.com/23008859/ENCODER8TO3DATAFLOW/assets/139117979/9fb09b65-401d-4af2-8e42-3094b2c9ffc9)
 
-**RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
+**RTL Schematic:
+![image](https://github.com/23008859/ENCODER8TO3DATAFLOW/assets/139117979/ec8739ba-f94f-47cf-b553-c784271fe9f3)
+
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+![image](https://github.com/23008859/ENCODER8TO3DATAFLOW/assets/139117979/792bbbcb-0e4a-4d7e-bcdd-ee57dca7f9ba)
 
 **RESULTS**
+Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
+
+
 
 
 
